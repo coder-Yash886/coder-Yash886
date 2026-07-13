@@ -3,53 +3,32 @@
 
 from __future__ import annotations
 
-import json
 import re
-import urllib.request
 from datetime import date
 from pathlib import Path
 
-USERNAME = "coder-Yash886"
+from github_stats import USERNAME, fetch_user_stats
+
 README = Path(__file__).parent / "README.md"
-
-
-def fetch_contributions() -> int:
-    for url in (
-        f"https://github-contributions-api.jogruber.de/v4/{USERNAME}?y=last",
-        f"https://github-contributions-api.deno.dev/{USERNAME}.json",
-    ):
-        try:
-            with urllib.request.urlopen(url) as resp:
-                data = json.load(resp)
-            return (
-                data.get("total", {}).get("lastYear")
-                or data.get("contributions")
-                or 0
-            )
-        except Exception:
-            continue
-    return 0
 
 
 def update_readme() -> bool:
     today = date.today().isoformat()
-    contributions = fetch_contributions()
+    stats = fetch_user_stats()
+    contributions = stats["contributions"]
     content = README.read_text(encoding="utf-8")
 
     stats_block = f"""# 📊 GitHub Stats
 
-<!-- stats-updated: {today} | contributions: {contributions} -->
+<!-- stats-updated: {today} | contributions: {contributions} | stars: {stats.get("stars", 0)} -->
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username={USERNAME}&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true&v={today}">
-  <img src="https://github-readme-stats.vercel.app/api?username={USERNAME}&show_icons=true&theme=default&hide_border=false&include_all_commits=true&count_private=true&v={today}" alt="GitHub Stats" height="165"/>
-</picture>
+![GitHub Stats](./assets/github-stats.svg)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=compact&theme=radical&hide_border=false&langs_count=8&v={today}" alt="Top Languages" height="165"/>
+![Top Languages](./assets/top-langs.svg)
 
-<br/><br/>
+<br>
 
 ![Profile views](https://komarev.com/ghpvc/?username={USERNAME}&label=Profile%20views&color=0e75b6&style=for-the-badge)
 
@@ -61,7 +40,7 @@ def update_readme() -> bool:
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username={USERNAME}&theme=tokyo-night&hide_border=true&area=true&custom_title=Contributions%20in%20the%20last%20year&v={today}" alt="Contribution Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username={USERNAME}&theme=tokyo-night&hide_border=true&area=true&custom_title=Contributions%20in%20the%20last%20year&v={today}" alt="Contribution Graph" width="100%" />
 
 </div>"""
 

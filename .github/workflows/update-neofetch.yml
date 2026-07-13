@@ -1,9 +1,12 @@
-name: Update Neofetch Card
+name: Update Profile Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   update:
@@ -20,13 +23,27 @@ jobs:
       - name: Install dependencies
         run: pip install pillow
 
+      - name: Generate stats cards (uses PAT for private contributions)
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
+        run: python generate_stats_cards.py
+
       - name: Generate neofetch SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         run: python generate_neofetch.py
 
+      - name: Refresh README stats section
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
+        run: python update_readme_stats.py
+
       - name: Commit and push
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dark_mode.svg light_mode.svg assets/ascii-art.txt
-          git diff --staged --quiet || git commit -m "Update neofetch profile card"
-          git push
+          git add dark_mode.svg light_mode.svg assets/ README.md
+          git diff --staged --quiet || git commit -m "chore: auto-update profile stats and contributions"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main

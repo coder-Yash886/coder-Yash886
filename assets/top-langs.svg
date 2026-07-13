@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="120">
+<style>
+  .title { font: bold 18px sans-serif; fill: #58a6ff; }
+  .label { font: 13px sans-serif; fill: #c9d1d9; }
+  .pct { font: 12px sans-serif; fill: #8b949e; text-anchor: end; }
+</style>
+<rect width="420" height="120" rx="10" fill="#0d1117" stroke="#30363d"/>
+<text x="20" y="32" class="title">Top Languages</text>
+<text x="20" y="58" class="label">No data</text>
+<text x="390" y="58" class="pct">100.0%</text>
+<rect x="20" y="64" width="300" height="10" rx="3" fill="#8b949e"/>
+</svg>

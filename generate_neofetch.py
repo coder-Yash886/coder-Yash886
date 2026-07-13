@@ -3,17 +3,16 @@
 
 from __future__ import annotations
 
-import json
-import urllib.request
 from pathlib import Path
 
 from PIL import Image, ImageEnhance
+
+from github_stats import USERNAME, fetch_user_stats
 
 ROOT = Path(__file__).parent
 ASSETS = ROOT / "assets"
 PROFILE = ASSETS / "profile.png"
 ASCII_FILE = ASSETS / "ascii-art.txt"
-USERNAME = "coder-Yash886"
 
 ASCII_WIDTH = 30
 ASCII_HEIGHT = 22
@@ -69,33 +68,7 @@ def generate_ascii_art(theme: str = "dark") -> list[str]:
 
 
 def fetch_github_stats() -> dict[str, int]:
-    with urllib.request.urlopen(f"https://api.github.com/users/{USERNAME}") as resp:
-        user = json.load(resp)
-
-    contributions = 0
-    for url in (
-        f"https://github-contributions-api.jogruber.de/v4/{USERNAME}?y=last",
-        f"https://github-contributions-api.deno.dev/{USERNAME}.json",
-    ):
-        try:
-            with urllib.request.urlopen(url) as resp:
-                contrib = json.load(resp)
-            contributions = (
-                contrib.get("total", {}).get("lastYear")
-                or contrib.get("contributions")
-                or 0
-            )
-            if contributions:
-                break
-        except Exception:
-            continue
-
-    return {
-        "repos": user.get("public_repos", 0),
-        "followers": user.get("followers", 0),
-        "following": user.get("following", 0),
-        "contributions": contributions,
-    }
+    return fetch_user_stats()
 
 
 def pad_dots(label: str, value: str, total_width: int = 28) -> str:
