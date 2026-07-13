@@ -106,15 +106,12 @@ Contributed to [**OWASP cve-lite-cli**](https://github.com/OWASP/cve-lite-cli), 
 
 # 📊 GitHub Stats
 
-<!-- stats-updated: 2026-07-13 | contributions: 556 | stars: 1 -->
-
 <div align="center">
 
-![GitHub Stats](./assets/github-stats.svg)
+<img src="https://raw.githubusercontent.com/coder-Yash886/coder-Yash886/stats-output/stats.svg" height="165" alt="GitHub Stats" />
+<img src="https://raw.githubusercontent.com/coder-Yash886/coder-Yash886/languages-output/languages.svg" height="165" alt="Top Languages" />
 
-![Top Languages](./assets/top-langs.svg)
-
-<br>
+<br><br>
 
 ![Profile views](https://komarev.com/ghpvc/?username=coder-Yash886&label=Profile%20views&color=0e75b6&style=for-the-badge)
 
