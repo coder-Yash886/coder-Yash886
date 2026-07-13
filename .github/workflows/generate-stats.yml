@@ -1,0 +1,53 @@
+name: Generate GitHub Stats Cards
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "assets/stats.svg"
+      - "assets/languages.svg"
+      - "dark_mode.svg"
+      - "light_mode.svg"
+      - "README.md"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT || github.token }}
+
+      - name: Generate stats.svg
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false
+          path: assets/stats.svg
+          token: ${{ secrets.PAT || github.token }}
+
+      - name: Generate languages.svg
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false
+          path: assets/languages.svg
+          token: ${{ secrets.PAT || github.token }}
+
+      - name: Commit and push to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/languages.svg
+          git diff --staged --quiet && echo "No changes" && exit 0
+          git commit -m "chore: update GitHub stats cards [skip ci]"
+          git push origin HEAD:main

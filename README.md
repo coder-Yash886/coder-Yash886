@@ -108,8 +108,8 @@ Contributed to [**OWASP cve-lite-cli**](https://github.com/OWASP/cve-lite-cli), 
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/coder-Yash886/coder-Yash886/stats-output/stats.svg" height="165" alt="GitHub Stats" />
-<img src="https://raw.githubusercontent.com/coder-Yash886/coder-Yash886/languages-output/languages.svg" height="165" alt="Top Languages" />
+<img src="./assets/stats.svg" height="165" alt="GitHub Stats" />
+<img src="./assets/languages.svg" height="165" alt="Top Languages" />
 
 <br><br>
 
