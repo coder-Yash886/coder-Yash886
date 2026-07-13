@@ -166,21 +166,6 @@ A personal knowledge management app to organize and securely share tweets, video
 
 ---
 
-# 🏆 Achievements
-
-### Competitive Programming
-
-- 🏅 **CodeChef** — Achieved **2★ rating** with a current rating of **1458** and solved **270+** coding problems ([Profile](https://www.codechef.com/users/yash886))
-- 💻 **LeetCode** — Solved **150+** DSA problems with active participation in weekly and biweekly coding contests ([Profile](https://leetcode.com/u/Yk_coder886/))
-- ⚔️ **Codeforces** — Solved **100+** competitive programming problems and regularly participated in rated contests ([Profile](https://codeforces.com/profile/yash886))
-
-### Hackathons & Open Source
-
-- 🚀 Participated in **Hacknovate 7.0** International Hybrid Hackathon organized by ABES Institute of Technology, Ghaziabad, 2026
-- 🔐 **OWASP Contributor** — **12+ merged PRs** to [cve-lite-cli](https://github.com/OWASP/cve-lite-cli), an OWASP Lab Project with 633+ stars
-- 🌟 **Open Source Contributor** at [OSS RNDC](https://github.com/ossrndc) — College technical society at AKGEC
-
----
 
 # 📊 GitHub Analytics
 
@@ -215,57 +200,18 @@ A personal knowledge management app to organize and securely share tweets, video
 
 </div>
 
----
+# 🏆 Achievements
 
+### Competitive Programming
 
+- 🏅 **CodeChef** — Achieved **2★ rating** with a current rating of **1458** and solved **270+** coding problems ([Profile](https://www.codechef.com/users/yash886))
+- 💻 **LeetCode** — Solved **150+** DSA problems with active participation in weekly and biweekly coding contests ([Profile](https://leetcode.com/u/Yk_coder886/))
+- ⚔️ **Codeforces** — Solved **100+** competitive programming problems and regularly participated in rated contests ([Profile](https://codeforces.com/profile/yash886))
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=coder-Yash886&theme=tokyo_night" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=coder-Yash886&theme=tokyo_night" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=coder-Yash886&theme=tokyo_night" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=coder-Yash886&theme=tokyo_night" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=coder-Yash886&theme=tokyo_night&utcOffset=5.5" />
+### Hackathons & Open Source
 
-</div>
-
----
-
-# 🎯 Currently Learning
-
-- Advanced Full Stack Architecture
-- System Design & Scalability
-- Kubernetes & Container Orchestration
-- AWS Cloud Architecture
-- TypeScript Advanced Patterns
-- Backend Performance Engineering
-- Open Source Best Practices
-- Security & Dependency Management
+- 🚀 Participated in **Hacknovate 7.0** International Hybrid Hackathon organized by ABES Institute of Technology, Ghaziabad, 2026
+- 🔐 **OWASP Contributor** — **12+ merged PRs** to [cve-lite-cli](https://github.com/OWASP/cve-lite-cli), an OWASP Lab Project with 633+ stars
+- 🌟 **Open Source Contributor** at [OSS RNDC](https://github.com/ossrndc) — College technical society at AKGEC
 
 ---
-
-# 🤝 Connect With Me
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-coder--Yash886-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/coder-Yash886)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Yk__coder886-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Yk_coder886/)
-[![CodeChef](https://img.shields.io/badge/CodeChef-yash886-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/yash886)
-[![Codeforces](https://img.shields.io/badge/Codeforces-yash886-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/yash886)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-kumar-2a7076325/)
-[![OWASP](https://img.shields.io/badge/OWASP-cve--lite--cli-000000?style=for-the-badge&logo=owasp&logoColor=white)](https://github.com/OWASP/cve-lite-cli)
-[![OSS RNDC](https://img.shields.io/badge/OSS_RNDC-ossrndc-2EA44F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ossrndc)
-
-</div>
-
----
-
-<div align="center">
-
-⭐ If you like my work, consider starring my repositories.
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,100:6E40C9&height=100&section=footer" width="100%"/>
-
-**⚡ Building great software, one commit at a time.**
-
-</div>
