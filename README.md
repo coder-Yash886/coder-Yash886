@@ -14,9 +14,6 @@
 
   <!-- Social Badges -->
   [![GitHub](https://img.shields.io/badge/GitHub-coder--Yash886-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/coder-Yash886)
-  [![LeetCode](https://img.shields.io/badge/LeetCode-Yk__coder886-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Yk_coder886/)
-  [![CodeChef](https://img.shields.io/badge/CodeChef-yash886-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/yash886)
-  [![Codeforces](https://img.shields.io/badge/Codeforces-yash886-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/yash886)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-kumar-2a7076325/)
   [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashkumar.967565@gmail.com)
 
@@ -35,18 +32,6 @@ I enjoy working on systems that involve:
 - open-source collaboration
 - competitive programming & DSA
 - developer tooling & automation
-
-**Currently working on:**
-- full-stack SaaS & AI-powered platforms
-- open-source contributions at **@ossrndc**
-- security tooling & dependency vulnerability scanning
-- TypeScript & React-based production apps
-- backend APIs with Node.js & MongoDB
-- DSA practice & competitive programming (Codeforces)
-
----
-
-
 
 # ⚙️ Tech Stack
 
@@ -121,52 +106,6 @@ Contributed to [**OWASP cve-lite-cli**](https://github.com/OWASP/cve-lite-cli), 
 | **Rocket.Chat** | Communications Platform | [github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) |
 
 ---
-
-# 🚀 Featured Projects
-
-## 🔹 Nexora-AI
-
-🌐 **Live Demo:** [nexora-ai-1qwb.vercel.app](https://nexora-ai-1qwb.vercel.app/) • [GitHub](https://github.com/coder-Yash886/Nexora-AI)
-
-### AI-Powered Full Stack Platform
-
-Modern TypeScript-based SaaS platform with AI integrations and scalable frontend architecture.
-
-### Features
-
-- TypeScript-first codebase with modern React architecture
-- User authentication and account management
-- Scalable component design with production-ready structure
-- Deployed on **Vercel**
-
-### Tech Stack
-
-`TypeScript` • `React` • `Node.js`
-
----
-
-## 🔹 Brain-Dock
-
-🌐 **Live:** [brain-dock-eosin.vercel.app](https://brain-dock-eosin.vercel.app) • [GitHub](https://github.com/coder-Yash886/Brain-dock)
-
-### Full-Stack Second Brain Application
-
-A personal knowledge management app to organize and securely share tweets, videos, links, and documents.
-
-### Features
-
-- Developed a full-stack **Second Brain** application for organizing digital content
-- Implemented **JWT authentication**, protected routes, and **MongoDB Atlas** integration
-- Built shareable brain links for secure content sharing
-- Deployed frontend on **Vercel** and backend on **Render** with optimized database queries and clean REST API architecture
-
-### Tech Stack
-
-`React` • `TypeScript` • `Node.js` • `Express.js` • `MongoDB` • `JWT`
-
----
-
-
 # 📊 GitHub Analytics
 
 <div align="center">
@@ -213,5 +152,4 @@ A personal knowledge management app to organize and securely share tweets, video
 - 🚀 Participated in **Hacknovate 7.0** International Hybrid Hackathon organized by ABES Institute of Technology, Ghaziabad, 2026
 - 🔐 **OWASP Contributor** — **12+ merged PRs** to [cve-lite-cli](https://github.com/OWASP/cve-lite-cli), an OWASP Lab Project with 633+ stars
 - 🌟 **Open Source Contributor** at [OSS RNDC](https://github.com/ossrndc) — College technical society at AKGEC
-
 ---
