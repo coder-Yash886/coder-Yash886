@@ -15,28 +15,56 @@ PROFILE = ASSETS / "profile.png"
 ASCII_FILE = ASSETS / "ascii-art.txt"
 USERNAME = "coder-Yash886"
 
+ASCII_WIDTH = 30
+ASCII_HEIGHT = 22
+ASCII_CHARS = " .:-=+*#%@"
 
-def generate_ascii_art() -> list[str]:
+
+def escape_svg(text: str) -> str:
+    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def generate_ascii_art(theme: str = "dark") -> list[str]:
+    """Convert profile photo into portrait ASCII art (original style, wider)."""
     img = Image.open(PROFILE).convert("L")
-    w, h = img.size
-    left, top, right, bottom = int(w * 0.25), int(h * 0.05), int(w * 0.75), int(h * 0.55)
-    img = img.crop((left, top, right, bottom))
-    img = ImageEnhance.Contrast(img).enhance(1.5)
+    width, height = img.size
 
-    ascii_w, ascii_h = 22, 22
-    img = img.resize((ascii_w, ascii_h))
+    # Original face-focused crop from first version
+    left = int(width * 0.25)
+    top = int(height * 0.05)
+    right = int(width * 0.75)
+    bottom = int(height * 0.55)
+    portrait = img.crop((left, top, right, bottom))
 
-    chars = " .:-=+*#%@"
+    # Slight warmth for natural skin tones
+    rgb = Image.open(PROFILE).convert("RGB").crop((left, top, right, bottom))
+    pixels = rgb.load()
+    warm = Image.new("L", portrait.size)
+    warm_pixels = warm.load()
+    for y in range(portrait.size[1]):
+        for x in range(portrait.size[0]):
+            red, green, blue = pixels[x, y]
+            warm_pixels[x, y] = int(0.35 * red + 0.45 * green + 0.20 * blue)
+
+    contrast = 1.55 if theme == "light" else 1.4
+    portrait = ImageEnhance.Contrast(warm).enhance(contrast)
+    portrait = ImageEnhance.Brightness(portrait).enhance(1.05 if theme == "dark" else 0.95)
+    portrait = portrait.resize((ASCII_WIDTH, ASCII_HEIGHT), Image.Resampling.LANCZOS)
+
     lines: list[str] = []
-    for y in range(ascii_h):
+    for y in range(ASCII_HEIGHT):
         row = ""
-        for x in range(ascii_w):
-            pixel = img.getpixel((x, y))
-            idx = int(pixel / 255 * (len(chars) - 1))
-            row += chars[idx]
+        for x in range(ASCII_WIDTH):
+            pixel = portrait.getpixel((x, y))
+            if theme == "light":
+                index = int((255 - pixel) / 255 * (len(ASCII_CHARS) - 1))
+            else:
+                index = int(pixel / 255 * (len(ASCII_CHARS) - 1))
+            row += ASCII_CHARS[index]
         lines.append(row)
 
-    ASCII_FILE.write_text("\n".join(lines))
+    if theme == "dark":
+        ASCII_FILE.write_text("\n".join(lines))
     return lines
 
 
@@ -44,14 +72,23 @@ def fetch_github_stats() -> dict[str, int]:
     with urllib.request.urlopen(f"https://api.github.com/users/{USERNAME}") as resp:
         user = json.load(resp)
 
-    try:
-        with urllib.request.urlopen(
-            f"https://github-contributions-api.jogruber.de/v4/{USERNAME}?y=last"
-        ) as resp:
-            contrib = json.load(resp)
-        contributions = contrib.get("total", {}).get("lastYear", 0)
-    except Exception:
-        contributions = 0
+    contributions = 0
+    for url in (
+        f"https://github-contributions-api.jogruber.de/v4/{USERNAME}?y=last",
+        f"https://github-contributions-api.deno.dev/{USERNAME}.json",
+    ):
+        try:
+            with urllib.request.urlopen(url) as resp:
+                contrib = json.load(resp)
+            contributions = (
+                contrib.get("total", {}).get("lastYear")
+                or contrib.get("contributions")
+                or 0
+            )
+            if contributions:
+                break
+        except Exception:
+            continue
 
     return {
         "repos": user.get("public_repos", 0),
@@ -70,24 +107,28 @@ def build_svg(ascii_lines: list[str], stats: dict[str, int], theme: str) -> str:
     if theme == "dark":
         bg = "#161b22"
         text = "#c9d1d9"
+        ascii_fill = "#c9d1d9"
         key = "#ffa657"
         value = "#a5d6ff"
         cc = "#616e7f"
         add = "#3fb950"
         del_ = "#f85149"
+        stroke = "none"
     else:
-        bg = "#ffffff"
+        bg = "#f6f8fa"
         text = "#24292f"
-        key = "#953800"
-        value = "#0550ae"
-        cc = "#8b949e"
+        ascii_fill = "#3d444d"
+        key = "#bc4c00"
+        value = "#0969da"
+        cc = "#656d76"
         add = "#1a7f37"
         del_ = "#cf222e"
+        stroke = "#d0d7de"
 
     ascii_y_start = 30
     ascii_line_height = 20
     ascii_tspans = "\n".join(
-        f'<tspan x="15" y="{ascii_y_start + i * ascii_line_height}">{line:<22}</tspan>'
+        f'<tspan x="15" y="{ascii_y_start + i * ascii_line_height}">{escape_svg(line)}</tspan>'
         for i, line in enumerate(ascii_lines)
     )
 
@@ -188,6 +229,11 @@ def build_svg(ascii_lines: list[str], stats: dict[str, int], theme: str) -> str:
     )
 
     svg_height = max(ascii_y_start + len(ascii_lines) * ascii_line_height + 20, y + 30)
+    stroke_attr = (
+        f'stroke="{stroke}" stroke-width="1"'
+        if stroke != "none"
+        else ""
+    )
 
     return f"""<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas,monospace" width="985px" height="{svg_height}px" font-size="16px">
@@ -197,10 +243,11 @@ def build_svg(ascii_lines: list[str], stats: dict[str, int], theme: str) -> str:
 .addColor {{fill: {add};}}
 .delColor {{fill: {del_};}}
 .cc {{fill: {cc};}}
+.ascii {{fill: {ascii_fill};}}
 text, tspan {{white-space: pre;}}
 </style>
-<rect width="985px" height="{svg_height}px" fill="{bg}" rx="15"/>
-<text x="15" y="30" fill="{text}" class="ascii">
+<rect width="985px" height="{svg_height}px" fill="{bg}" rx="15" {stroke_attr}/>
+<text x="15" y="30" class="ascii">
 {ascii_tspans}
 </text>
 <text x="{info_x}" y="30" fill="{text}">
@@ -212,11 +259,12 @@ text, tspan {{white-space: pre;}}
 
 def main() -> None:
     ASSETS.mkdir(exist_ok=True)
-    ascii_lines = generate_ascii_art()
     stats = fetch_github_stats()
+    dark_ascii = generate_ascii_art("dark")
+    light_ascii = generate_ascii_art("light")
 
-    (ROOT / "dark_mode.svg").write_text(build_svg(ascii_lines, stats, "dark"))
-    (ROOT / "light_mode.svg").write_text(build_svg(ascii_lines, stats, "light"))
+    (ROOT / "dark_mode.svg").write_text(build_svg(dark_ascii, stats, "dark"))
+    (ROOT / "light_mode.svg").write_text(build_svg(light_ascii, stats, "light"))
     print("Generated dark_mode.svg and light_mode.svg")
     print(f"Stats: {stats}")
 
