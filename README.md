@@ -15,8 +15,8 @@
   <!-- Social Badges -->
   [![GitHub](https://img.shields.io/badge/GitHub-coder--Yash886-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/coder-Yash886)
   [![Twitter](https://img.shields.io/badge/Twitter-@YashK47662-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YashK47662)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-kumar)
-  [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-kumar-2a7076325/)
+  [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashkumar.967565@gmail.com)
 
 </div>
 
