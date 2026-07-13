@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas,monospace" width="985px" height="500px" font-size="16px">
+<style>
+.key {fill: #953800;}
+.value {fill: #0550ae;}
+.addColor {fill: #1a7f37;}
+.delColor {fill: #cf222e;}
+.cc {fill: #8b949e;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="985px" height="500px" fill="#ffffff" rx="15"/>
+<text x="15" y="30" fill="#24292f" class="ascii">
+<tspan x="15" y="30">@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15" y="50">@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15" y="70">@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15" y="90">@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15" y="110">@@@@@@@@@%#*#%@@@@@@@@</tspan>
+<tspan x="15" y="130">@@@@@@%=:    .-%@@@@@@</tspan>
+<tspan x="15" y="150">@@@@%=.        .%@@@@@</tspan>
+<tspan x="15" y="170">@@@%-           .%@@@@</tspan>
+<tspan x="15" y="190">@@@*   .:-----.  -%@@@</tspan>
+<tspan x="15" y="210">@@@=  -++*****+-  *@@@</tspan>
+<tspan x="15" y="230">@@@: :=++******+: +@@@</tspan>
+<tspan x="15" y="250">@@@- -=++*****++= +@@@</tspan>
+<tspan x="15" y="270">@@@+.:.  .==. .:=:#@@@</tspan>
+<tspan x="15" y="290">@@@#:-....=+. :-=-%@@@</tspan>
+<tspan x="15" y="310">@@@=-=+===+*+=+*+=+@@@</tspan>
+<tspan x="15" y="330">@@@+-+**+=*******=#@@@</tspan>
+<tspan x="15" y="350">@@@#:-++-.---+**+=%@@@</tspan>
+<tspan x="15" y="370">@@@%+:-:  .:..=+=#@@@@</tspan>
+<tspan x="15" y="390">@@@@@-:.:----:--+@@@@@</tspan>
+<tspan x="15" y="410">@@@@@%:.--:-==-=%@@@@@</tspan>
+<tspan x="15" y="430">@@@@@%=  ..:..:+%@@@@@</tspan>
+<tspan x="15" y="450">@@@@%+=-.   .-=+=#@@@@</tspan>
+</text>
+<text x="390" y="30" fill="#24292f">
+<tspan x="390" y="30">yash@coder-Yash886</tspan> -——————————————————————————————————————————-
+<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc">... </tspan><tspan class="value">Linux, Windows, Android</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc">. </tspan><tspan class="value">AKGEC, Ghaziabad, India</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc">. </tspan><tspan class="value">Backend Developer @ OSS RNDC</tspan>
+<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc">.......... </tspan><tspan class="value">VS Code, Cursor</tspan>
+<tspan x="390" y="130" class="cc">. </tspan>
+<tspan x="390" y="150" class="cc">. </tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="cc">. </tspan><tspan class="value">JavaScript, TypeScript, C++, Python</tspan>
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Languages.Computer</tspan>:<tspan class="cc">. </tspan><tspan class="value">HTML, CSS, JSON, YAML, Markdown</tspan>
+<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Languages.Real</tspan>:<tspan class="cc">. </tspan><tspan class="value">English, Hindi</tspan>
+<tspan x="390" y="210" class="cc">. </tspan>
+<tspan x="390" y="230" class="cc">. </tspan><tspan class="key">Hobbies.Software</tspan>:<tspan class="cc">. </tspan><tspan class="value">Open Source, DSA, Hackathons</tspan>
+<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Hobbies.Hardware</tspan>:<tspan class="cc">. </tspan><tspan class="value">Cloud, DevOps, System Design</tspan>
+<tspan x="390" y="280">- Contact -——————————————————————————————————————-</tspan>
+<tspan x="390" y="300" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc">. </tspan><tspan class="value">yashkumar.967565@gmail.com</tspan>
+<tspan x="390" y="320" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc">. </tspan><tspan class="value">yash-kumar-2a7076325</tspan>
+<tspan x="390" y="340" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc">......... </tspan><tspan class="value">coder-Yash886</tspan>
+<tspan x="390" y="360" class="cc">. </tspan><tspan class="key">LeetCode</tspan>:<tspan class="cc">......... </tspan><tspan class="value">Yk_coder886</tspan>
+<tspan x="390" y="380" class="cc">. </tspan><tspan class="key">CodeChef</tspan>:<tspan class="cc">........ </tspan><tspan class="value">yash886 (2★)</tspan>
+<tspan x="390" y="410">- GitHub Stats -—————————————————————————————————-</tspan>
+<tspan x="390" y="430" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc">. </tspan><tspan class="value">26</tspan> {<tspan class="key">Contributions</tspan>: <tspan class="value">556</tspan>} | <tspan class="key">Followers</tspan>:<tspan class="cc">. </tspan><tspan class="value">9</tspan>
+<tspan x="390" y="450" class="cc">. </tspan><tspan class="key">Following</tspan>:<tspan class="cc">................. </tspan><tspan class="value">12</tspan> | <tspan class="key">OWASP PRs</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">12+ merged</tspan>
+<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Open Source</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">OWASP cve-lite-cli</tspan> (<tspan class="addColor">OSS RNDC</tspan>)
+</text>
+</svg>
