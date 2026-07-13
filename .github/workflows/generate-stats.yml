@@ -23,9 +23,8 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      # Always use GITHUB_TOKEN for git push (PAT is only for stats API)
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT || github.token }}
 
       - name: Generate stats.svg
         uses: readme-tools/github-readme-stats-action@v1
