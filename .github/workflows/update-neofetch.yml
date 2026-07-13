@@ -10,19 +10,25 @@ on:
     paths-ignore:
       - "dark_mode.svg"
       - "light_mode.svg"
-      - "assets/stats.svg"
-      - "assets/languages.svg"
+      - "assets/**"
+      - "README.md"
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-update
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      # Always use GITHUB_TOKEN for git push (PAT is only for GitHub API)
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -30,6 +36,22 @@ jobs:
 
       - name: Install dependencies
         run: pip install pillow
+
+      - name: Generate stats.svg
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false
+          path: assets/stats.svg
+          token: ${{ secrets.PAT || github.token }}
+
+      - name: Generate languages.svg
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false
+          path: assets/languages.svg
+          token: ${{ secrets.PAT || github.token }}
 
       - name: Generate neofetch SVG
         env:
@@ -45,7 +67,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dark_mode.svg light_mode.svg assets/ascii-art.txt README.md
+          git add dark_mode.svg light_mode.svg assets/ README.md
           git diff --staged --quiet && echo "No changes" && exit 0
-          git commit -m "chore: auto-update profile stats and contributions [skip ci]"
+          git commit -m "chore: auto-update profile [skip ci]"
+          git pull --rebase origin main
           git push origin HEAD:main
