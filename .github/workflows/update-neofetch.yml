@@ -25,17 +25,17 @@ jobs:
 
       - name: Generate neofetch SVG
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.PAT || github.token }}
         run: python generate_neofetch.py
 
       - name: Refresh README contribution graph
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.PAT || github.token }}
         run: python update_readme_stats.py
 
       - name: Commit and push
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.PAT || github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

@@ -1,36 +1,43 @@
 name: Generate languages card
 
 on:
-  schedule: # every 12 hours at minute 0
+  schedule:
     - cron: "0 */12 * * *"
-
   workflow_dispatch:
-
   push:
     branches:
-    - main
+      - main
+
+permissions:
+  contents: write
 
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - name: generate languages.svg
+      - uses: actions/checkout@v4
+
+      - name: Generate languages.svg
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false
           path: dist/languages.svg
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.PAT || github.token }}
 
-
-      - name: push languages.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: languages-output
-          build_dir: dist
+      - name: Push to languages-output branch
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.PAT || github.token }}
+        run: |
+          worktree=$(mktemp -d)
+          cp dist/languages.svg "$worktree/languages.svg"
+          cd "$worktree"
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b languages-output
+          git add languages.svg
+          git commit -m "Update languages card [skip ci]"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" languages-output
