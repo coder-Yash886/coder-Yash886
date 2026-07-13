@@ -14,7 +14,9 @@
 
   <!-- Social Badges -->
   [![GitHub](https://img.shields.io/badge/GitHub-coder--Yash886-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/coder-Yash886)
-  [![Twitter](https://img.shields.io/badge/Twitter-@YashK47662-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YashK47662)
+  [![LeetCode](https://img.shields.io/badge/LeetCode-Yk__coder886-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Yk_coder886/)
+  [![CodeChef](https://img.shields.io/badge/CodeChef-yash886-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/yash886)
+  [![Codeforces](https://img.shields.io/badge/Codeforces-yash886-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/yash886)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-kumar-2a7076325/)
   [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashkumar.967565@gmail.com)
 
@@ -44,20 +46,7 @@ I enjoy working on systems that involve:
 
 ---
 
-# 🧠 Engineering Focus
 
-- Full Stack Web Development
-- Backend APIs & System Design
-- TypeScript & React Ecosystem
-- Open Source Contribution
-- Data Structures & Algorithms
-- Competitive Programming
-- Developer Tools & CLI Utilities
-- Cloud & DevOps Basics
-- Database Design (MongoDB, SQL)
-- Clean Code & Best Practices
-
----
 
 # ⚙️ Tech Stack
 
@@ -86,20 +75,50 @@ I enjoy working on systems that involve:
 
 # 💼 Professional Experience
 
-## 🔹 OSS RNDC — [@ossrndc](https://github.com/ossrndc)
+## 🔹 Open Source Society (OSS RNDC) — [@ossrndc](https://github.com/ossrndc)
 
-### Developer & Open Source Contributor
-📍 India  
+### Backend Developer
+📍 Ghaziabad, Uttar Pradesh  
 📅 Present
 
-- Contributing to open-source healthcare & civic-tech projects
-- Collaborating on production-grade full-stack applications
-- Participating in code reviews, issue triage, and feature development
-- Working with modern web stacks: **React**, **TypeScript**, **Node.js**
+College technical society — [Open Source R&D Centre](https://github.com/ossrndc), the open-source team of AKGEC.
+
+- Built and maintained scalable backend APIs using **Node.js** and **Express.js** for technical event registration systems
+- Collaborated on open-source projects and delivered solutions used in college events with **200+ participants**
+- Implemented **JWT authentication**, **MongoDB** integration, and REST API optimization for improved scalability and performance
+- Managed development workflows using **Git**, **GitHub**, **Docker**, and **Postman** for version control and API testing
 
 ### Core Technologies
 
-`React` • `TypeScript` • `Node.js` • `Git` • `Open Source` • `Agile`
+`Node.js` • `Express.js` • `MongoDB` • `JWT` • `Docker` • `Git` • `GitHub` • `Postman`
+
+---
+
+## 🔹 OWASP — [cve-lite-cli](https://github.com/OWASP/cve-lite-cli)
+
+### Open Source Contributor
+📅 2025 – Present  
+🔗 [**View Merged PRs**](https://github.com/OWASP/cve-lite-cli/pulls?q=is%3Apr+author%3ACoder-Yash886+is%3Aclosed)
+
+Contributed to [**OWASP cve-lite-cli**](https://github.com/OWASP/cve-lite-cli), an OWASP Lab Project — a CLI security tool for lightweight CVE lookup used by security researchers worldwide (633+ stars).
+
+- Got **12+ pull requests merged**, improving tool functionality, code quality, and overall developer experience
+- Added features including `--create-pr` flag, `--debug` logging, fix version publish dates, and yarn lockfile path reconstruction
+- Collaborated with the global open-source security community under OWASP following standard code review workflows
+
+### Core Technologies
+
+`TypeScript` • `Node.js` • `Security` • `CLI` • `Open Source` • `OWASP`
+
+---
+
+# 🌐 Open Source Contributions
+
+| Project | Organization | Link |
+|---------|--------------|------|
+| **cve-lite-cli** | [OWASP](https://owasp.org/) | [github.com/OWASP/cve-lite-cli](https://github.com/OWASP/cve-lite-cli) |
+| **OSS RNDC** | AKGEC College Society | [github.com/ossrndc](https://github.com/ossrndc) |
+| **Rocket.Chat** | Communications Platform | [github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) |
 
 ---
 
@@ -107,16 +126,18 @@ I enjoy working on systems that involve:
 
 ## 🔹 Nexora-AI
 
+🌐 **Live Demo:** [nexora-ai-1qwb.vercel.app](https://nexora-ai-1qwb.vercel.app/) • [GitHub](https://github.com/coder-Yash886/Nexora-AI)
+
 ### AI-Powered Full Stack Platform
 
-Modern TypeScript-based application exploring AI integrations and scalable frontend architecture.
+Modern TypeScript-based SaaS platform with AI integrations and scalable frontend architecture.
 
 ### Features
 
-- TypeScript-first codebase
-- Modern React architecture
-- Scalable component design
-- Production-ready project structure
+- TypeScript-first codebase with modern React architecture
+- User authentication and account management
+- Scalable component design with production-ready structure
+- Deployed on **Vercel**
 
 ### Tech Stack
 
@@ -124,87 +145,40 @@ Modern TypeScript-based application exploring AI integrations and scalable front
 
 ---
 
-## 🔹 cve-lite-cli
+## 🔹 Brain-Dock
 
-### Fast Dependency Vulnerability Scanner
+🌐 **Live:** [brain-dock-eosin.vercel.app](https://brain-dock-eosin.vercel.app) • [GitHub](https://github.com/coder-Yash886/Brain-dock)
 
-Developer-friendly JS/TS dependency vulnerability scanner with local lockfile scanning and practical remediation guidance.
+### Full-Stack Second Brain Application
 
-### Features
-
-- Local lockfile scanning with **OSV** matching
-- Direct vs transitive dependency visibility
-- `--fix` support with JSON output
-- Fast, developer-friendly CLI experience
-
-### Tech Stack
-
-`JavaScript` • `TypeScript` • `Node.js` • `CLI` • `Security`
-
----
-
-## 🔹 Chatify
-
-### Real-Time Chat Application
-
-Full-stack real-time messaging platform built with modern web technologies.
+A personal knowledge management app to organize and securely share tweets, videos, links, and documents.
 
 ### Features
 
-- Real-time communication
-- Modern TypeScript architecture
-- Scalable backend design
-- Interactive user experience
+- Developed a full-stack **Second Brain** application for organizing digital content
+- Implemented **JWT authentication**, protected routes, and **MongoDB Atlas** integration
+- Built shareable brain links for secure content sharing
+- Deployed frontend on **Vercel** and backend on **Render** with optimized database queries and clean REST API architecture
 
 ### Tech Stack
 
-`TypeScript` • `React` • `Node.js` • `WebSockets`
-
----
-
-## 🔹 ESP-Website
-
-### Educational Program Logistics Platform
-
-A website to help manage the logistics of large, short-term educational programs.
-
-### Features
-
-- Program & logistics management
-- Full-stack web application
-- User-friendly admin workflows
-
-### Tech Stack
-
-`JavaScript` • `React` • `Node.js`
-
----
-
-## 🔹 DSA-PRACTICE & Codeforces
-
-### Competitive Programming
-
-Active practice in Data Structures & Algorithms with solutions on Codeforces.
-
-### Highlights
-
-- Consistent DSA problem-solving
-- C++ solutions for algorithmic challenges
-- Focus on time & space complexity optimization
-
-### Tech Stack
-
-`C++` • `Algorithms` • `Data Structures` • `Codeforces`
+`React` • `TypeScript` • `Node.js` • `Express.js` • `MongoDB` • `JWT`
 
 ---
 
 # 🏆 Achievements
 
-- 🌟 **Open Source Contributor** – [@ossrndc](https://github.com/ossrndc)
-- 💻 Active on **LeetCode** & **Codeforces**
-- 🛠️ Built **26+ public repositories** on GitHub
-- 🔐 Created **cve-lite-cli** – a developer security tool
-- 🚀 Contributor to healthcare DPG projects (**Care**)
+### Competitive Programming
+
+- 🏅 **CodeChef** — Achieved **2★ rating** with a current rating of **1458** and solved **270+** coding problems ([Profile](https://www.codechef.com/users/yash886))
+- 💻 **LeetCode** — Solved **150+** DSA problems with active participation in weekly and biweekly coding contests ([Profile](https://leetcode.com/u/Yk_coder886/))
+- ⚔️ **Codeforces** — Solved **100+** competitive programming problems and regularly participated in rated contests ([Profile](https://codeforces.com/profile/yash886))
+
+### Hackathons & Open Source
+
+- 🚀 Participated in **Hacknovate 7.0** International Hybrid Hackathon organized by ABES Institute of Technology, Ghaziabad, 2026
+- 🔐 **OWASP Contributor** — **12+ merged PRs** to [cve-lite-cli](https://github.com/OWASP/cve-lite-cli), an OWASP Lab Project with 633+ stars
+- 🌟 **Open Source Contributor** at [OSS RNDC](https://github.com/ossrndc) — College technical society at AKGEC
 
 ---
 
@@ -243,13 +217,7 @@ Active practice in Data Structures & Algorithms with solutions on Codeforces.
 
 ---
 
-# 📊 Detailed GitHub Metrics
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=coder-Yash886&theme=tokyonight&no-frame=true&column=4&margin-w=10&margin-h=10" alt="GitHub Trophies" />
-
-<br/>
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=coder-Yash886&theme=tokyo_night" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=coder-Yash886&theme=tokyo_night" />
@@ -279,8 +247,12 @@ Active practice in Data Structures & Algorithms with solutions on Codeforces.
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-coder--Yash886-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/coder-Yash886)
-[![Twitter](https://img.shields.io/badge/Twitter-@YashK47662-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YashK47662)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-kumar)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Yk__coder886-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Yk_coder886/)
+[![CodeChef](https://img.shields.io/badge/CodeChef-yash886-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/yash886)
+[![Codeforces](https://img.shields.io/badge/Codeforces-yash886-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/yash886)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-kumar-2a7076325/)
+[![OWASP](https://img.shields.io/badge/OWASP-cve--lite--cli-000000?style=for-the-badge&logo=owasp&logoColor=white)](https://github.com/OWASP/cve-lite-cli)
+[![OSS RNDC](https://img.shields.io/badge/OSS_RNDC-ossrndc-2EA44F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ossrndc)
 
 </div>
 
