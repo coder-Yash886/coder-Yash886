@@ -106,20 +106,6 @@ Contributed to [**OWASP cve-lite-cli**](https://github.com/OWASP/cve-lite-cli), 
 | **Rocket.Chat** | Communications Platform | [github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) |
 
 ---
-# 📊 GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=coder-Yash886&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=coder-Yash886&theme=tokyonight&hide_border=true" height="165"/>
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=coder-Yash886&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
-
-</div>
-
----
 
 # 🔥 GitHub Streak
 
