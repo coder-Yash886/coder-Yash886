@@ -23,8 +23,31 @@ def escape_svg(text: str) -> str:
     return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
+def invert_ascii_lines(lines: list[str]) -> list[str]:
+    last = len(ASCII_CHARS) - 1
+    inverted: list[str] = []
+    for line in lines:
+        row = ""
+        for char in line:
+            if char in ASCII_CHARS:
+                index = last - ASCII_CHARS.index(char)
+                row += ASCII_CHARS[index]
+            else:
+                row += char
+        inverted.append(row)
+    return inverted
+
+
 def generate_ascii_art(theme: str = "dark") -> list[str]:
     """Convert profile photo into portrait ASCII art (original style, wider)."""
+    if not PROFILE.exists():
+        if ASCII_FILE.exists():
+            lines = ASCII_FILE.read_text(encoding="utf-8").splitlines()
+            return invert_ascii_lines(lines) if theme == "light" else lines
+        raise FileNotFoundError(
+            f"Missing {PROFILE}. Add your photo or commit {ASCII_FILE}."
+        )
+
     img = Image.open(PROFILE).convert("L")
     width, height = img.size
 

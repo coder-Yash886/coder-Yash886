@@ -13,26 +13,26 @@ text, tspan {white-space: pre;}
 <text x="15" y="30" class="ascii">
 <tspan x="15" y="30">                              </tspan>
 <tspan x="15" y="50">                              </tspan>
-<tspan x="15" y="70">                              </tspan>
-<tspan x="15" y="90">                              </tspan>
-<tspan x="15" y="110">             .::..            </tspan>
-<tspan x="15" y="130">         .+*%%@@@%#*-         </tspan>
-<tspan x="15" y="150">       =*%@@@@%%%@@@@+        </tspan>
-<tspan x="15" y="170">     .#@@@@@@@@@@@@@@@#.      </tspan>
-<tspan x="15" y="190">     #@%%%#***++++*#%%@%.     </tspan>
-<tspan x="15" y="210">    :@%%*=---::-:::-=+%@#     </tspan>
-<tspan x="15" y="230">    =%%*==------------*@%.    </tspan>
-<tspan x="15" y="250">    -@*++=---:--:----==#%.    </tspan>
-<tspan x="15" y="270">    .%+*#%%%%*==*%%%#*=**     </tspan>
-<tspan x="15" y="290">     +**##%#%#=-*%%#++-*-     </tspan>
-<tspan x="15" y="310">    =*==-=====-:-===---=+:    </tspan>
-<tspan x="15" y="330">    :*+=-:--==::::-:::-==.    </tspan>
-<tspan x="15" y="350">     =#+=--+*#++*=--::-*:     </tspan>
-<tspan x="15" y="370">     .=#++#%%####%%+--+:      </tspan>
-<tspan x="15" y="390">       *###**+++++**=*=       </tspan>
-<tspan x="15" y="410">        +%#+++*+===+*-        </tspan>
-<tspan x="15" y="430">        -#%%%####%%#+:        </tspan>
-<tspan x="15" y="450">       ==+*#%%%%#*+==-+:      </tspan>
+<tspan x="15" y="70">            .......           </tspan>
+<tspan x="15" y="90">         ...       ..         </tspan>
+<tspan x="15" y="110">      ...   .::-:..  ..       </tspan>
+<tspan x="15" y="130">     .   :+#@@@@@@%#=  .      </tspan>
+<tspan x="15" y="150">    . .+#@@@@@@@@@@@@*. .     </tspan>
+<tspan x="15" y="170">   ..:%@@@@@@@@@@@@@@@%: .    </tspan>
+<tspan x="15" y="190">   ..%@@@%##***+***#@@@%: .   </tspan>
+<tspan x="15" y="210">  . -@@@*==---------=*@@%..   </tspan>
+<tspan x="15" y="230">  . +@@*===----------=#@@: .  </tspan>
+<tspan x="15" y="250">  . =@#++===--------===%@. .  </tspan>
+<tspan x="15" y="270">  . :@**%%@@@*==*@@%#*=*# .   </tspan>
+<tspan x="15" y="290">   ..***%#@%%#=-*%%#**=*=..   </tspan>
+<tspan x="15" y="310">  . =*+====+++---===---=+- .  </tspan>
+<tspan x="15" y="330">  . :*+=----==-:-----:-=+. .  </tspan>
+<tspan x="15" y="350">   . +#+===+#%*+*+=---=*- .   </tspan>
+<tspan x="15" y="370">   ...+#++%@@%##%@%*==*- .    </tspan>
+<tspan x="15" y="390">    .  *##%#**++++##+*= .     </tspan>
+<tspan x="15" y="410">     ...*%#*****==+**= .      </tspan>
+<tspan x="15" y="430">        =#@@%####%%#+:. .     </tspan>
+<tspan x="15" y="450">    ...+=+*#%@@@%#*==-*-..    </tspan>
 </text>
 <text x="390" y="30" fill="#24292f">
 <tspan x="390" y="30">yash@coder-Yash886</tspan> -——————————————————————————————————————————-
@@ -54,7 +54,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="360" class="cc">. </tspan><tspan class="key">LeetCode</tspan>:<tspan class="cc">......... </tspan><tspan class="value">Yk_coder886</tspan>
 <tspan x="390" y="380" class="cc">. </tspan><tspan class="key">CodeChef</tspan>:<tspan class="cc">........ </tspan><tspan class="value">yash886 (2★)</tspan>
 <tspan x="390" y="410">- GitHub Stats -—————————————————————————————————-</tspan>
-<tspan x="390" y="430" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc">. </tspan><tspan class="value">26</tspan> {<tspan class="key">Contributions</tspan>: <tspan class="value">556</tspan>} | <tspan class="key">Followers</tspan>:<tspan class="cc">. </tspan><tspan class="value">9</tspan>
+<tspan x="390" y="430" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc">. </tspan><tspan class="value">26</tspan> {<tspan class="key">Contributions</tspan>: <tspan class="value">561</tspan>} | <tspan class="key">Followers</tspan>:<tspan class="cc">. </tspan><tspan class="value">9</tspan>
 <tspan x="390" y="450" class="cc">. </tspan><tspan class="key">Following</tspan>:<tspan class="cc">................. </tspan><tspan class="value">12</tspan> | <tspan class="key">OWASP PRs</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">12+ merged</tspan>
 <tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Open Source</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">OWASP cve-lite-cli</tspan> (<tspan class="addColor">OSS RNDC</tspan>)
 </text>
