@@ -1,0 +1,43 @@
+name: Update contribution stats
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  summary-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+
+  contribution-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: Push snake to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          force_orphan: true
+          commit_message: "chore: refresh contribution snake"
