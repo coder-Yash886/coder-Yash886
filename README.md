@@ -6,31 +6,39 @@
 
 <!-- Animated Intro -->
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=28&duration=2600&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=Hey%2C+I'm+Yash+Kumar+%F0%9F%9A%80;Full+Stack+Developer;Backend+%26+API+Engineer;Open+Source+%40+OWASP;Building+AI-powered+products" />
-</h1>
-
 <p align="center">
-Full Stack Developer • Backend & APIs • Open Source @ OWASP • DSA
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=28&duration=2800&pause=1200&color=00E5FF&center=true&vCenter=true&width=900&lines=Backend+Developer+%7C+Open+Source+Contributor" alt="Backend Developer | Open Source Contributor" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=coder-Yash886&label=Profile%20Views&color=0e75b6&style=flat"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=22&duration=3200&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=Node.js+%7C+TypeScript+%7C+PostgreSQL+%7C+MongoDB;Express.js+%7C+Next.js+%7C+Docker+%7C+REST+APIs;React.js+%7C+JWT+%7C+WebSockets+%7C+Git" alt="Tech stack" />
+</p>
+
+<h3 align="center">Building scalable distributed systems</h3>
+
+<p align="center">
+Backend Developer • Open Source @ OWASP • DSA
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/yash-kumar-2a7076325/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:yashkumar.967565@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://komarev.com/ghpvc/?username=coder-Yash886&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views"/>
 </p>
 
 ---
 
 # 🚀 About Me
 
-I'm a **backend-focused software engineering student** building scalable APIs and AI-powered applications with **Node.js, TypeScript, PostgreSQL, and MongoDB** — and shipping that work into real open source.
-
-Today I'm:
-
-- 🔐 **Open Source Contributor at OWASP** — [cve-lite-cli](https://github.com/OWASP/cve-lite-cli), production-grade CVE security tooling
-- 🤖 Building **AI-powered products** — video meetings, transcription, Gemini summaries, async workflows
-- 💻 Grinding DSA — **280+ LeetCode** · **300+ CodeChef** · **2★ (1458)**
-
-My focus is simple: ship reliable backends, contribute real open source, and keep systems fast, testable, and production-ready.
+- 🚀 **Backend Developer & Open Source Contributor**
+- 🌱 Currently learning **Advanced System Design, Distributed Systems & Cloud Architecture**
+- 🧠 Passionate about **Scalable Backend Systems, Event-Driven Architecture & Real-Time Applications**
+- 💻 Building backend systems using **Node.js, TypeScript, Express.js, Next.js & REST APIs**
+- 🔥 Experienced with **PostgreSQL, MongoDB, JWT, WebSockets & REST APIs**
+- 🛠️ Working with **Docker, Git, GitHub, Postman, Vercel & Render**
+- 🐳 Building and deploying systems using **Docker, Linux, Vercel, Render & Firebase**
+- 🤝 Open to collaboration on **backend, open source & production APIs**
+- 📫 Reach me at: [yashkumar.967565@gmail.com](mailto:yashkumar.967565@gmail.com) · [LinkedIn](https://www.linkedin.com/in/yash-kumar-2a7076325/)
 
 ---
 
@@ -105,19 +113,6 @@ Full-stack AI video meeting platform with secure authentication, real-time meeti
 - Production deploy on Vercel
 
 `Next.js` • `Node.js` • `Stream Video SDK` • `Google Gemini API` • `Inngest` • `Vercel`
-
----
-
-## 🔹 Brain-Dock — Second Brain Content Management
-
-🌐 **Live:** https://brain-dock-eosin.vercel.app · 💻 [GitHub](https://github.com/coder-Yash886/Brain-dock)
-
-Full-stack platform to organize and securely share tweets, videos, links, and documents.
-
-- JWT authentication, protected routes, MongoDB Atlas
-- Frontend on Vercel, backend on Render
-
-`Node.js` • `Express.js` • `MongoDB Atlas` • `JWT` • `Vercel` • `Render`
 
 ---
 
