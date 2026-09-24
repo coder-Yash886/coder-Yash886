@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <rect width="400" height="200" rx="12" fill="#1a1b26"/>
+  <rect x="8" y="8" width="384" height="184" rx="10" fill="#24283b"/>
+  <text x="200" y="105" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" fill="#a9b1d6">Updating commits language card via GitHub Actions...</text>
+</svg>
