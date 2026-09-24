@@ -227,11 +227,6 @@ Official technical community platform for AKGEC — events, registration, and co
 # 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=coder-Yash886&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800&cache_ts=202609241900" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=coder-Yash886&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&cache_seconds=1800&cache_ts=202609241900" alt="Top Languages"/>
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=coder-Yash886&theme=tokyonight&hide_border=true&cache_seconds=1800&cache_ts=202609241900" alt="GitHub Streak"/>
 </p>
 
