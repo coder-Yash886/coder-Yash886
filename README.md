@@ -26,31 +26,71 @@ Backend Developer • Open Source @ OWASP • DSA
 
 # 🚀 About Me
 
-- 🚀 **Backend Developer & Open Source Contributor**
-- 🌱 Currently learning **Advanced System Design, Distributed Systems & Cloud Architecture**
-- 🧠 Passionate about **Scalable Backend Systems, Event-Driven Architecture & Real-Time Applications**
-- 💻 Building backend systems using **Node.js, TypeScript, Express.js, Next.js & REST APIs**
-- 🔥 Experienced with **PostgreSQL, MongoDB, JWT, WebSockets & REST APIs**
-- 🛠️ Working with **Docker, Git, GitHub, Postman, Vercel & Render**
-- 🐳 Building and deploying systems using **Docker, Linux, Vercel, Render & Firebase**
-- 🤝 Open to collaboration on **backend, open source & production APIs**
-- 📫 Reach me at: [yashkumar.967565@gmail.com](mailto:yashkumar.967565@gmail.com) · [LinkedIn](https://www.linkedin.com/in/yash-kumar-2a7076325/)
+<table>
+  <tr>
+    <td width="40" valign="top">🚀</td>
+    <td valign="top"><b>Backend Developer & Open Source Contributor</b></td>
+  </tr>
+  <tr>
+    <td valign="top">🌱</td>
+    <td valign="top">Currently learning <b>Advanced System Design, Distributed Systems & Cloud Architecture</b></td>
+  </tr>
+  <tr>
+    <td valign="top">🧠</td>
+    <td valign="top">Passionate about <b>Scalable Backend Systems, Event-Driven Architecture & Real-Time Applications</b></td>
+  </tr>
+  <tr>
+    <td valign="top">💻</td>
+    <td valign="top">Building backend systems using <b>Node.js, TypeScript, Express.js, Next.js & REST APIs</b></td>
+  </tr>
+  <tr>
+    <td valign="top">🔥</td>
+    <td valign="top">Experienced with <b>PostgreSQL, MongoDB, JWT, WebSockets & REST APIs</b></td>
+  </tr>
+  <tr>
+    <td valign="top">🛠️</td>
+    <td valign="top">Working with <b>Docker, Git, GitHub, Postman, Vercel & Render</b></td>
+  </tr>
+  <tr>
+    <td valign="top">🐳</td>
+    <td valign="top">Building and deploying systems using <b>Docker, Linux, Vercel, Render & Firebase</b></td>
+  </tr>
+  <tr>
+    <td valign="top">🤝</td>
+    <td valign="top">Open to collaboration on <b>backend, open source & production APIs</b></td>
+  </tr>
+  <tr>
+    <td valign="top">📫</td>
+    <td valign="top">Reach me at: <a href="mailto:yashkumar.967565@gmail.com">yashkumar.967565@gmail.com</a> · <a href="https://www.linkedin.com/in/yash-kumar-2a7076325/">LinkedIn</a></td>
+  </tr>
+</table>
 
 ---
 
 # 🧠 What I Work On
 
-### Backend & Systems
+<table width="100%">
+  <tr>
+    <td valign="top" width="50%">
+
+**Backend & Systems**
 - REST APIs, JWT auth, and protected-route architectures
 - Peak-traffic backends and event registration systems
 - Real-time infrastructure (WebSockets, live video sessions)
 - Docker-based deployments, Vercel / Render, CI/CD concepts
 
-### Open Source & Security Tooling
-- CLI diagnostics: structured JSONL logs, OSV request/response traces
-- Automated remediations: OSV-validated fixes opened as GitHub PRs
-- Dependency resolution fixtures (Yarn lockfiles, transitive fixes)
-- npm registry lookups for fix-version publish dates and release-age policy
+    </td>
+    <td valign="top" width="50%">
+
+**Open Source & Security Tooling**
+- CLI diagnostics: structured JSONL logs and OSV traces
+- Automated remediations opened as GitHub PRs
+- Yarn lockfile fixtures for transitive dependency fixes
+- npm registry lookups for fix-version publish dates
+
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -74,21 +114,34 @@ Backend Developer • Open Source @ OWASP • DSA
 
 # 💼 Experience
 
-## 🔹 OWASP — **Open Source Contributor**
+### 🔹 OWASP — Open Source Contributor
 
-### [cve-lite-cli](https://github.com/OWASP/cve-lite-cli) — Lightweight CVE Lookup CLI
+**[cve-lite-cli](https://github.com/OWASP/cve-lite-cli)** — Lightweight CVE Lookup CLI
 
-📅 May 2026 – Present · Remote  
-🔗 [Merged PRs](https://github.com/OWASP/cve-lite-cli/pulls?q=is%3Apr+author%3ACoder-Yash886+is%3Aclosed)
+📅 May 2026 – Present · Remote · 🔗 [Merged PRs](https://github.com/OWASP/cve-lite-cli/pulls?q=is%3Apr+author%3ACoder-Yash886+is%3Aclosed)
 
-OWASP Lab Project used by security researchers for lightweight CVE lookup. I ship production-grade CLI features — diagnostics, automated remediations, fixtures, and report accuracy.
+OWASP Lab Project for lightweight CVE lookup. I ship production-grade CLI features — diagnostics, automated remediations, fixtures, and report accuracy.
 
 **What I shipped**
 
-- 🐞 **`--debug` flag** — structured JSONL diagnostic logs with batch-correlated OSV request/response traces, cache events, and fix-validation data, with **zero overhead** when disabled ([#471](https://github.com/OWASP/cve-lite-cli/pull/471))
-- 🔀 **`--create-pr` flag** — apply OSV-validated fixes and automatically open GitHub PRs via `gh`, with scoped dependency staging and branch-collision handling ([#518](https://github.com/OWASP/cve-lite-cli/pull/518))
-- 🧶 **Yarn lockfile fixture** — validate transitive dependency resolution for within-range fixes; coordinated with maintainers on a companion Yarn-parser fix ([#537](https://github.com/OWASP/cve-lite-cli/pull/537))
-- 📦 **npm registry lookups** — surface fix-version **publish dates** in terminal and HTML reports so teams can enforce minimum release-age security policies ([#700](https://github.com/OWASP/cve-lite-cli/pull/700))
+<table>
+  <tr>
+    <td width="40" valign="top">🐞</td>
+    <td valign="top"><code>--debug</code> — JSONL diagnostic logs with OSV traces and <b>zero overhead</b> when disabled (<a href="https://github.com/OWASP/cve-lite-cli/pull/471">#471</a>)</td>
+  </tr>
+  <tr>
+    <td valign="top">🔀</td>
+    <td valign="top"><code>--create-pr</code> — apply OSV-validated fixes and open GitHub PRs via <code>gh</code> (<a href="https://github.com/OWASP/cve-lite-cli/pull/518">#518</a>)</td>
+  </tr>
+  <tr>
+    <td valign="top">🧶</td>
+    <td valign="top"><b>Yarn lockfile fixture</b> — validate transitive dependency resolution for within-range fixes (<a href="https://github.com/OWASP/cve-lite-cli/pull/537">#537</a>)</td>
+  </tr>
+  <tr>
+    <td valign="top">📦</td>
+    <td valign="top"><b>npm registry lookups</b> — surface fix-version publish dates in terminal and HTML reports (<a href="https://github.com/OWASP/cve-lite-cli/pull/700">#700</a>)</td>
+  </tr>
+</table>
 
 **Core Technologies**
 
@@ -98,28 +151,47 @@ OWASP Lab Project used by security researchers for lightweight CVE lookup. I shi
 
 # 🚀 Featured Projects
 
-## 🔹 Nexora AI — AI-Powered Video Meeting Platform
+### 🔹 Nexora AI — AI-Powered Video Meeting Platform
 
-🌐 **Live:** https://nexora-ai-1qwb.vercel.app · 💻 [GitHub](https://github.com/coder-Yash886/Nexora-AI)
+🌐 **Live:** [nexora-ai-1qwb.vercel.app](https://nexora-ai-1qwb.vercel.app) · 💻 [GitHub](https://github.com/coder-Yash886/Nexora-AI)
 
 Full-stack AI video meeting platform with secure authentication, real-time meetings, automatic transcription, and AI-generated summaries.
 
-- Stream Video SDK + Google Gemini for meetings, transcript chat, and summaries
-- Asynchronous workflows with Inngest
-- Production deploy on Vercel
+<table>
+  <tr>
+    <td width="16" valign="top">•</td>
+    <td valign="top">Stream Video SDK + Google Gemini for meetings, transcript chat, and summaries</td>
+  </tr>
+  <tr>
+    <td valign="top">•</td>
+    <td valign="top">Asynchronous workflows with Inngest</td>
+  </tr>
+  <tr>
+    <td valign="top">•</td>
+    <td valign="top">Production deploy on Vercel</td>
+  </tr>
+</table>
 
 `Next.js` • `Node.js` • `Stream Video SDK` • `Google Gemini API` • `Inngest` • `Vercel`
 
 ---
 
-## 🔹 OSS AKGEC — Technical Community Platform
+### 🔹 OSS AKGEC — Technical Community Platform
 
-🌐 **Live:** https://oss.akgec.ac.in · 💻 [GitHub](https://github.com/coder-Yash886/oss-site)
+🌐 **Live:** [oss.akgec.ac.in](https://oss.akgec.ac.in) · 💻 [GitHub](https://github.com/coder-Yash886/oss-site)
 
 Official technical community platform for AKGEC — events, registration, and contributor workflows.
 
-- Event registration engineered for **500+ registrations** at peak traffic
-- REST APIs for event management and registration
+<table>
+  <tr>
+    <td width="16" valign="top">•</td>
+    <td valign="top">Event registration engineered for <b>500+ registrations</b> at peak traffic</td>
+  </tr>
+  <tr>
+    <td valign="top">•</td>
+    <td valign="top">REST APIs for event management and registration</td>
+  </tr>
+</table>
 
 `React.js` • `TypeScript` • `Node.js` • `Express.js` • `MongoDB` • `Vercel`
 
@@ -127,11 +199,28 @@ Official technical community platform for AKGEC — events, registration, and co
 
 # 🏆 Achievements
 
-- 🥇 **CodeChef 2★** — rating **1458**, **300+** problems solved
-- 🥇 **CodeChef Starters 236 (Rated)** — global rank **659** among **30,000+** candidates
-- 🥇 **CodeChef Starters 237 (Rated)** — global rank **837** among **25,000+** candidates
-- 💻 **LeetCode** — **280+** DSA problems, weekly & biweekly contests
-- 🔐 **OWASP contributor** — debug logging, auto-PR remediations, Yarn fixtures, and registry publish-date reports on [cve-lite-cli](https://github.com/OWASP/cve-lite-cli)
+<table>
+  <tr>
+    <td width="40" valign="top">🥇</td>
+    <td valign="top"><b>CodeChef 2★</b> — rating <b>1458</b>, <b>300+</b> problems solved</td>
+  </tr>
+  <tr>
+    <td valign="top">🥇</td>
+    <td valign="top"><b>CodeChef Starters 236 (Rated)</b> — global rank <b>659</b> among <b>30,000+</b> candidates</td>
+  </tr>
+  <tr>
+    <td valign="top">🥇</td>
+    <td valign="top"><b>CodeChef Starters 237 (Rated)</b> — global rank <b>837</b> among <b>25,000+</b> candidates</td>
+  </tr>
+  <tr>
+    <td valign="top">💻</td>
+    <td valign="top"><b>LeetCode</b> — <b>280+</b> DSA problems, weekly & biweekly contests</td>
+  </tr>
+  <tr>
+    <td valign="top">🔐</td>
+    <td valign="top"><b>OWASP contributor</b> — debug logging, auto-PR remediations, Yarn fixtures, and publish-date reports on <a href="https://github.com/OWASP/cve-lite-cli">cve-lite-cli</a></td>
+  </tr>
+</table>
 
 ---
 
@@ -159,11 +248,28 @@ Official technical community platform for AKGEC — events, registration, and co
 
 # 🎯 Currently Going Deeper On
 
-- Production backend design — scale, reliability, and clean API contracts
-- Security-focused open source (CVE tooling, dependency fix automation)
-- AI-powered product features (summarization, agents, async workflows)
-- System design + DSA for interviews
-- Docker, cloud deploys, and CI/CD discipline
+<table>
+  <tr>
+    <td width="16" valign="top">•</td>
+    <td valign="top">Production backend design — scale, reliability, and clean API contracts</td>
+  </tr>
+  <tr>
+    <td valign="top">•</td>
+    <td valign="top">Security-focused open source (CVE tooling, dependency fix automation)</td>
+  </tr>
+  <tr>
+    <td valign="top">•</td>
+    <td valign="top">AI-powered product features (summarization, agents, async workflows)</td>
+  </tr>
+  <tr>
+    <td valign="top">•</td>
+    <td valign="top">System design + DSA for interviews</td>
+  </tr>
+  <tr>
+    <td valign="top">•</td>
+    <td valign="top">Docker, cloud deploys, and CI/CD discipline</td>
+  </tr>
+</table>
 
 ---
 
