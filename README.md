@@ -235,8 +235,8 @@ Official technical community platform for AKGEC — events, registration, and co
 </p>
 
 <p align="center">
-  <img src="assets/repos-per-language.svg?cache_ts=202609242130" alt="Top languages by repo"/>
-  <img src="assets/most-commit-language.svg?cache_ts=202609242130" alt="Top languages by commit"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=coder-Yash886&theme=tokyonight&cache_ts=202609242130" alt="Top languages by repo"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=coder-Yash886&theme=tokyonight&cache_ts=202609242130" alt="Top languages by commit"/>
 </p>
 
 ---
