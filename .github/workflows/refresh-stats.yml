@@ -4,37 +4,30 @@ on:
   schedule:
     - cron: "0 */4 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
 
 permissions:
   contents: write
 
 jobs:
-  generate:
+  refresh-cache:
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate live contribution cards
-        env:
-          GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
-          STATS_USERNAME: ${{ github.repository_owner }}
-        run: python3 scripts/generate_stats.py
-
-      - name: Bust README image cache
+      - name: Bust Camo cache on stats images
         run: |
           TS=$(date -u +%Y%m%d%H%M)
           sed -i -E "s/cache_ts=[0-9]+/cache_ts=${TS}/g" README.md
 
-      - name: Commit updated stats
+      - name: Commit cache bust
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-streak.svg assets/github-profile.svg README.md
+          git add README.md
           if git diff --staged --quiet; then
-            echo "No stats change"
+            echo "No cache_ts change"
             exit 0
           fi
-          git commit -m "chore: refresh contribution stats [skip ci]"
+          git commit -m "chore: refresh GitHub stats cache [skip ci]"
           git push

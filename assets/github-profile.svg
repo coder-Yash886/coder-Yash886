@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="540" height="200" viewBox="0 0 540 200">
-  <rect width="540" height="200" rx="12" fill="#0d1117"/>
-  <rect x="8" y="8" width="524" height="184" rx="10" fill="#161b22"/>
-  <text x="270" y="108" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" fill="#8b949e">Stats generate after Actions run  Refresh GitHub stats</text>
-</svg>

@@ -227,16 +227,16 @@ Official technical community platform for AKGEC — events, registration, and co
 # 📊 GitHub Analytics
 
 <p align="center">
-  <img src="assets/github-streak.svg?cache_ts=202609241930" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com?user=coder-Yash886&theme=tokyonight&hide_border=true&cache_ts=202609242100" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img src="assets/github-profile.svg?cache_ts=202609241930" alt="Profile details"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=coder-Yash886&theme=tokyonight&cache_ts=202609242100" alt="Profile details"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=coder-Yash886&theme=tokyonight&cache_ts=202609241930" alt="Top languages by repo"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=coder-Yash886&theme=tokyonight&cache_ts=202609241930" alt="Top languages by commit"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=coder-Yash886&theme=tokyonight&cache_ts=202609242100" alt="Top languages by repo"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=coder-Yash886&theme=tokyonight&cache_ts=202609242100" alt="Top languages by commit"/>
 </p>
 
 ---
