@@ -146,15 +146,8 @@ Official technical community platform for AKGEC — events, registration, and co
 
 # 📊 GitHub Analytics
 
-<!-- stats refresh daily via .github/workflows/update-stats.yml -->
-
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=coder-Yash886&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="GitHub Streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=coder-Yash886&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=coder-Yash886&layout=compact&theme=tokyonight&hide_border=true&hide=html,css&langs_count=6&exclude_repo=ESP-Website,KubeArmor,Memory-Game,OSS,OrgExplorer,Rocket.Chat,ayani,care,care_fe,cve-lite-cli,homebrew-simulation,pecan,pipecd,restaurant,sipnet,Coursera,To-Do-list,Notes-app,Registration-form,React-To-do,coder-Yash886,E-Commerce-Website&cache_seconds=1800" alt="Top Languages"/>
+  <img src="https://streak-stats.demolab.com?user=coder-Yash886&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
@@ -164,14 +157,6 @@ Official technical community platform for AKGEC — events, registration, and co
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=coder-Yash886&theme=tokyonight&exclude=ESP-Website,KubeArmor,Memory-Game,OSS,OrgExplorer,Rocket.Chat,ayani,care,care_fe,cve-lite-cli,homebrew-simulation,pecan,pipecd,restaurant,sipnet,Coursera,To-Do-list,Notes-app,Registration-form,React-To-do,coder-Yash886,E-Commerce-Website" alt="Top languages by repo"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=coder-Yash886&theme=tokyonight&exclude=ESP-Website,KubeArmor,Memory-Game,OSS,OrgExplorer,Rocket.Chat,ayani,care,care_fe,cve-lite-cli,homebrew-simulation,pecan,pipecd,restaurant,sipnet" alt="Top languages by commit"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/coder-Yash886/coder-Yash886/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=coder-Yash886&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" width="100%"/>
 </p>
 
 ---
