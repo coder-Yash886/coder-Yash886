@@ -1,5 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="540" height="200" viewBox="0 0 540 200">
-  <rect width="540" height="200" rx="12" fill="#1a1b26"/>
-  <rect x="10" y="10" width="520" height="180" rx="10" fill="#24283b"/>
-  <text x="270" y="105" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" fill="#a9b1d6">Updating stats card via GitHub Actions...</text>
+  <style>
+    .bg { fill: #1a1b26; }
+    .card { fill: #24283b; rx: 10px; }
+    .title-num { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 36px; font-weight: 700; fill: #7aa2f7; }
+    .label { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 13px; fill: #a9b1d6; }
+    .date-sub { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 11px; fill: #73daca; }
+    .streak-num { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 22px; font-weight: 700; fill: #bb9af7; }
+    .streak-lbl { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 13px; fill: #bb9af7; }
+  </style>
+  <rect width="540" height="200" rx="12" class="bg"/>
+  <rect x="10" y="10" width="520" height="180" class="card"/>
+  <line x1="184" y1="35" x2="184" y2="165" stroke="#414868" stroke-width="1"/>
+  <line x1="356" y1="35" x2="356" y2="165" stroke="#414868" stroke-width="1"/>
+
+  <!-- Left: Total -->
+  <text x="97" y="86" text-anchor="middle" class="title-num">834</text>
+  <text x="97" y="114" text-anchor="middle" class="label">Total Contributions</text>
+  <text x="97" y="134" text-anchor="middle" class="date-sub">Jan 1, 2025 - Present</text>
+
+  <!-- Middle: Current Streak -->
+  <circle cx="270" cy="76" r="30" fill="none" stroke="#bb9af7" stroke-width="5" stroke-linecap="round" stroke-dasharray="150 188"/>
+  <text x="270" y="72" text-anchor="middle" font-size="16">🔥</text>
+  <text x="270" y="93" text-anchor="middle" class="streak-num">5</text>
+  <text x="270" y="126" text-anchor="middle" class="streak-lbl">Current Streak</text>
+  <text x="270" y="144" text-anchor="middle" class="date-sub">Sep 20 - Sep 24</text>
+
+  <!-- Right: Longest Streak -->
+  <text x="447" y="86" text-anchor="middle" class="title-num">18</text>
+  <text x="447" y="114" text-anchor="middle" class="label">Longest Streak</text>
+  <text x="447" y="134" text-anchor="middle" class="date-sub">Apr 18 - May 5</text>
 </svg>
