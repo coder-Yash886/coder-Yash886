@@ -98,6 +98,11 @@ def streak_stats(days: list[tuple[date, int]]) -> tuple[int, str, str, int, str,
     def fmt(d: date) -> str:
         return d.strftime("%b %d").replace(" 0", " ")
 
+    today = datetime.now(timezone.utc).date()
+    days = [d for d in days if d[0] <= today]
+    if not days:
+        return 0, "", "", 0, "", ""
+
     longest = longest_start = longest_end = 0
     run = run_start = 0
     for i, (_, count) in enumerate(days):
@@ -112,8 +117,8 @@ def streak_stats(days: list[tuple[date, int]]) -> tuple[int, str, str, int, str,
         else:
             run = 0
 
-    today = date.today()
     idx = len(days) - 1
+    # If today has 0, GitHub streak counts yesterday's active streak
     if days[idx][1] == 0 and idx > 0:
         idx -= 1
     current = 0
