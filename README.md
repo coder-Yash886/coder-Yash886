@@ -4,14 +4,10 @@
   <img src="GitHeader.gif" width="100%" alt="banner"/>
 </p>
 
-<!-- Animated Intro -->
+<!-- Animated Intro: one animation — Backend first, then tech stack -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=28&duration=2800&pause=1200&color=00E5FF&center=true&vCenter=true&width=900&lines=Backend+Developer+%7C+Open+Source+Contributor" alt="Backend Developer | Open Source Contributor" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=22&duration=3200&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=Node.js+%7C+TypeScript+%7C+PostgreSQL+%7C+MongoDB;Express.js+%7C+Next.js+%7C+Docker+%7C+REST+APIs;React.js+%7C+JWT+%7C+WebSockets+%7C+Git" alt="Tech stack" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=28&duration=2800&pause=1500&color=00E5FF&center=true&vCenter=true&width=900&lines=Backend+Developer+%7C+Open+Source+Contributor;Node.js+%7C+TypeScript+%7C+PostgreSQL+%7C+MongoDB;Express.js+%7C+Next.js+%7C+Docker+%7C+REST+APIs;React.js+%7C+JWT+%7C+WebSockets+%7C+Git" alt="Backend Developer | Open Source Contributor" />
 </p>
 
 <h3 align="center">Building scalable distributed systems</h3>
@@ -142,16 +138,21 @@ Official technical community platform for AKGEC — events, registration, and co
 # 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=coder-Yash886&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=coder-Yash886&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800&cache_ts=202609241900" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=coder-Yash886&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&cache_seconds=1800&cache_ts=202609241900" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=coder-Yash886&theme=tokyonight" alt="Profile details"/>
+  <img src="https://streak-stats.demolab.com?user=coder-Yash886&theme=tokyonight&hide_border=true&cache_seconds=1800&cache_ts=202609241900" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=coder-Yash886&theme=tokyonight&exclude=ESP-Website,KubeArmor,Memory-Game,OSS,OrgExplorer,Rocket.Chat,ayani,care,care_fe,cve-lite-cli,homebrew-simulation,pecan,pipecd,restaurant,sipnet,Coursera,To-Do-list,Notes-app,Registration-form,React-To-do,coder-Yash886,E-Commerce-Website" alt="Top languages by repo"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=coder-Yash886&theme=tokyonight&exclude=ESP-Website,KubeArmor,Memory-Game,OSS,OrgExplorer,Rocket.Chat,ayani,care,care_fe,cve-lite-cli,homebrew-simulation,pecan,pipecd,restaurant,sipnet" alt="Top languages by commit"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=coder-Yash886&theme=tokyonight&cache_ts=202609241900" alt="Profile details"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=coder-Yash886&theme=tokyonight&cache_ts=202609241900" alt="Top languages by repo"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=coder-Yash886&theme=tokyonight&cache_ts=202609241900" alt="Top languages by commit"/>
 </p>
 
 ---
