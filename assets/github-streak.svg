@@ -14,16 +14,16 @@
   <line x1="356" y1="35" x2="356" y2="165" stroke="#414868" stroke-width="1"/>
 
   <!-- Left: Total -->
-  <text x="97" y="86" text-anchor="middle" class="title-num">1,045</text>
+  <text x="97" y="86" text-anchor="middle" class="title-num">1,047</text>
   <text x="97" y="114" text-anchor="middle" class="label">Total Contributions</text>
   <text x="97" y="134" text-anchor="middle" class="date-sub">Jan 1, 2025 - Present</text>
 
   <!-- Middle: Current Streak -->
   <circle cx="270" cy="76" r="30" fill="none" stroke="#bb9af7" stroke-width="5" stroke-linecap="round" stroke-dasharray="150 188"/>
   <text x="270" y="72" text-anchor="middle" font-size="16">🔥</text>
-  <text x="270" y="93" text-anchor="middle" class="streak-num">5</text>
+  <text x="270" y="93" text-anchor="middle" class="streak-num">6</text>
   <text x="270" y="126" text-anchor="middle" class="streak-lbl">Current Streak</text>
-  <text x="270" y="144" text-anchor="middle" class="date-sub">Sep 20 - Sep 24</text>
+  <text x="270" y="144" text-anchor="middle" class="date-sub">Sep 20 - Sep 25</text>
 
   <!-- Right: Longest Streak -->
   <text x="447" y="86" text-anchor="middle" class="title-num">18</text>
