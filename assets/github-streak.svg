@@ -23,7 +23,7 @@
   <text x="270" y="72" text-anchor="middle" font-size="16">🔥</text>
   <text x="270" y="93" text-anchor="middle" class="streak-num">0</text>
   <text x="270" y="126" text-anchor="middle" class="streak-lbl">Current Streak</text>
-  <text x="270" y="144" text-anchor="middle" class="date-sub">Sep 28 - Sep 28</text>
+  <text x="270" y="144" text-anchor="middle" class="date-sub">Sep 29 - Sep 29</text>
 
   <!-- Right: Longest Streak -->
   <text x="447" y="86" text-anchor="middle" class="title-num">18</text>
