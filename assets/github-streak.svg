@@ -21,9 +21,9 @@
   <!-- Middle: Current Streak -->
   <circle cx="270" cy="76" r="30" fill="none" stroke="#bb9af7" stroke-width="5" stroke-linecap="round" stroke-dasharray="150 188"/>
   <text x="270" y="72" text-anchor="middle" font-size="16">🔥</text>
-  <text x="270" y="93" text-anchor="middle" class="streak-num">2</text>
+  <text x="270" y="93" text-anchor="middle" class="streak-num">0</text>
   <text x="270" y="126" text-anchor="middle" class="streak-lbl">Current Streak</text>
-  <text x="270" y="144" text-anchor="middle" class="date-sub">Oct 3 - Oct 4</text>
+  <text x="270" y="144" text-anchor="middle" class="date-sub">Oct 6 - Oct 6</text>
 
   <!-- Right: Longest Streak -->
   <text x="447" y="86" text-anchor="middle" class="title-num">18</text>
