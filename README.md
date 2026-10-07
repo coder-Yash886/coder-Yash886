@@ -227,16 +227,16 @@ Official technical community platform for AKGEC — events, registration, and co
 # 📊 GitHub Analytics
 
 <p align="center">
-  <img src="assets/github-streak.svg?cache_ts=202610070355" alt="GitHub Streak"/>
+  <img src="assets/github-streak.svg?cache_ts=202610071049" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img src="assets/github-profile.svg?cache_ts=202610070355" alt="Profile details"/>
+  <img src="assets/github-profile.svg?cache_ts=202610071049" alt="Profile details"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=coder-Yash886&theme=tokyonight&cache_ts=202610070355" alt="Top languages by repo"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=coder-Yash886&theme=tokyonight&cache_ts=202610070355" alt="Top languages by commit"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=coder-Yash886&theme=tokyonight&cache_ts=202610071049" alt="Top languages by repo"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=coder-Yash886&theme=tokyonight&cache_ts=202610071049" alt="Top languages by commit"/>
 </p>
 
 ---
